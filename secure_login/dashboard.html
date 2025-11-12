@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Dashboard</h2>
+  <p>Welcome, {{ user }}. This is protected content.</p>
+  <p>To view recent login attempts (for learning), call <code>/admin/logs</code> (returns JSON).</p>
+{% endblock %}

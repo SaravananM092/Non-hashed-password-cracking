@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Login</h2>
+  <form method="post" action="{{ url_for('login') }}">
+    <label>Username</label><br>
+    <input type="text" name="username" required autocomplete="username"><br><br>
+    <label>Password</label><br>
+    <input type="password" name="password" required autocomplete="current-password"><br><br>
+
+    <button type="submit">Login</button>
+  </form>
+  <p class="help">This demo stores password hashes (bcrypt). Brute-force protections: per-IP rate limiting, account lockout, and logging.</p>
+{% endblock %}
