@@ -67,6 +67,12 @@ pip install -r requirements.txt
 **10)** # Open a browser on the Kali machine and go to:
 `http://127.0.0.1:5000/login`
 
+**10)** <ins> catch the login(GET) request and sent to intruder and brute force the username or password
+       by your own common password list. </ins> 
+
+
+
+
 
 
 
